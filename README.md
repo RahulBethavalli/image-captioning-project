@@ -17,9 +17,12 @@ The prediction is not very accurate but fairly good considering the size of the 
 
 # Summary
 1.Our model depends on the data, so it can't predict the words that are out of its vocabulary.
+
 2.We used a small dataset consisting of 8000 images. For production-level models, we need to train on datasets larger than 100,000 images which can produce better accuracy models.
+
 3.We saw the improvements resulted in the model by adding attention.
 
 # Future Improvements
 1.We are going to implement beam search and compare the results with the greedy approach
+
 2.We will compare the difference in performance using global and local attentions
